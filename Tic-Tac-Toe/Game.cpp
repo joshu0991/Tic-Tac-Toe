@@ -16,6 +16,7 @@ int main()
 	char letter = 'X';
 	bool check = false;
 	Tic_Tac_Toe t;
+	t.print_board();
 while(t.decide_winner(turn, letter) == false)
 {
 	letter = t.decide_let(turn);

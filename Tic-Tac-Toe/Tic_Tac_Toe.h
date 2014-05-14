@@ -20,6 +20,9 @@ class Tic_Tac_Toe
 		bool decide_winner(int, char);
 		bool in_array(int, int, int);
 		bool check_row(void);
+		bool check_col(void);
+		bool check_diag(void);
+		bool is_full(void);
 	private:
 		//string a, b, c;
 	std::string a_n   = "       |       |       \n";
