@@ -4,14 +4,17 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../Computer.cpp \
 ../Game.cpp \
 ../Tic_Tac_Toe.cpp 
 
 OBJS += \
+./Computer.o \
 ./Game.o \
 ./Tic_Tac_Toe.o 
 
 CPP_DEPS += \
+./Computer.d \
 ./Game.d \
 ./Tic_Tac_Toe.d 
 

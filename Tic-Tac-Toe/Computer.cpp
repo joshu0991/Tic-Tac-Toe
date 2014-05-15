@@ -79,3 +79,4 @@ int Computer::get_last_move(int row, int col)
 	}
 	return ret_var;
 }
+
